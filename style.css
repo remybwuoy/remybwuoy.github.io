@@ -89,7 +89,7 @@ a p{
   padding: 40px;
   background-size: cover;
   border-radius: 1%;
-  background:transparent;
+  background:rgba(0, 0, 0, 0.692);
 }
 
 .login-div label{
