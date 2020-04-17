@@ -1,0 +1,150 @@
+body{
+  height:100%;
+  width: 100%;
+  font-family:forte;
+  background-image: url(images/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*logout*/
+.bod{
+  height:100%;
+  width: 100%;
+  font-family:forte;
+  background-image: url(images/bbw.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*end*/
+
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  text-shadow: 1px 2px 1px rgba(8, 1, 17, 0.37);
+  font-family:forte;
+  margin-top:65px;
+  margin: 30px;
+}
+
+h2{
+  margin-top:100px;
+  text-align: center;
+  font-size: 100px;
+  color:#fff;
+  text-shadow: 2px 2px 2px #000;
+}
+
+h1::after{
+ width:180px;
+  height:3px;
+   background-color: rgb(123, 18, 243);
+     display: block;
+    content:" ";
+  margin:0 auto;
+ visibility: visible;
+ margin-bottom:20px;
+margin-top:30px;
+}
+
+
+.col-sm-6{
+  text-align: center;
+  margin-top: 20px;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+p{
+  font-size: 13px;
+  font-family:Lucida Fax;
+  color: #fff;
+  margin:15px;
+  text-align:left;
+  text-decoration: none;
+  list-style-type:none ;
+}
+
+a p{
+  text-align: center;
+  font-size: 13px;
+  font-family:Lucida Fax;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: -8px;
+}
+
+.login-div{
+  box-shadow:  8px 9px 9px #00020341,
+  -4px -4px 4px #071a2557;
+  padding: 40px;
+  background-size: cover;
+  border-radius: 1%;
+  background:transparent;
+}
+
+.login-div label{
+  text-align: left;
+  text-shadow: 2px 2px 2px #000;
+}
+
+form{
+  margin: 0px 0px 10px 0px;
+  color: #000;
+}
+
+.login-div input{
+  background: rgba(125, 25, 255, 0.288);
+  padding:23px;
+  color: #fff;
+  border-radius: 25px;
+}
+
+ input[type="checkbox"] {
+  border: none;
+  outline: none;
+  font-size: 1em;
+  cursor: pointer;
+  margin:0px 13px 0px 0px;
+  background: saddlebrown;
+   color: saddlebrown;
+}
+
+.btn{
+  background:rgb(123, 18, 243);
+  background: linear-gradient( to right,  rgb(119, 0, 255) , rgb(119, 0, 255),rgba(255, 81, 0, 0.596));
+  font-family:'Nunito';
+  text-shadow: 1px 1px 1px #000;
+  box-shadow:  5px 5px 8px #00020341,
+  -4px -4px 4px #071a2557;
+  border: none;
+  border-radius: 8px;
+  margin-top: 35px;
+}
+
+.btn:hover{
+  background: linear-gradient( to right,  rgba(255, 255, 255, 0.788) , rgba(255, 255, 255, 0.795),rgba(255, 81, 0, 0.596));
+  border:1px solid  rgb(123, 18, 243);
+  color:rgb(123, 18, 243);
+  text-shadow: 1px 1px 1px #000;
+  transition: 0.3s all ease-out;
+  transform: scale(1.00);
+  z-index: 9999;
+}
+
+.footer{
+  font-size: 16px;
+  color: #fff;
+  font-family:forte;
+  text-align: center;
+  margin-top: 15px;
+}
